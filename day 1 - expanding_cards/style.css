@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+.container 
+{
+    width: 90vw;
+    display: flex;
+    column-gap: .5rem;
+}
+
+.panel 
+{
+   display: flex;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0.5;
+    border-radius: 2rem;
+    position: relative;
+    transition: flex .5s ease-in;
+    cursor: pointer;
+}
+
+.panel > h3 
+{
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    transition: opacity .3s ease-in .4s;
+}
+
+.active 
+{
+    flex: 5;
+}
