@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   background-color: #333;
+}
+
+form 
+{
+    position: relative;
+}
+
+form input 
+{ 
+  width: 10px;
+  border: none;
+  outline: none;
+  padding: .5rem;
+  transition: all 1s ease-in-out;
+
+ 
+
+}
+
+input.active 
+{
+    width:200px;
+}
+form i 
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #ccc;
+    display: flex;
+    align-content: center;
+   padding: 0 .5rem;
+   cursor: pointer;
+   color: white;
+   transition: all 1s ease-in-out;
+   
+}
+
+.border-active 
+{
+     border-radius:0 .5rem .5rem 0;
+}
+

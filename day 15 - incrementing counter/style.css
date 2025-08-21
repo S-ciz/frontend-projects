@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: slateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container 
+{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.container .stat 
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.container .stat i 
+{
+    font-size: 2rem;
+}
+
+@media (max-width:600px) {
+    .container 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

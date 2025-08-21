@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   background-color: steelblue;
+   font-family: cursive;
+}
+
+.card
+{
+    background-color: white;
+    padding: 2rem 3rem;
+    max-width: 500px;
+    min-width: 200px;
+   
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.card p, .card h1
+{
+  
+    font-size: 25px;
+    color: #ccc;
+}
+.card h1 
+{
+    margin-bottom: 2rem;
+      color: #333;
+}
+
+
+
+.card button 
+{
+   margin: auto;
+   display: flex;
+   padding: 1rem 2rem;
+   border: none;
+   background-color: blueviolet;
+   color: white;
+   border-radius: .2rem;
+   font-family: inherit;
+   cursor: pointer;
+}
+
+.card button:active 
+{
+ opacity: .9;
+}
+
+
+.active 
+{
+    color: steelblue;
+}
